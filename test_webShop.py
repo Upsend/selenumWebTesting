@@ -13,7 +13,7 @@ def test_register():
         driver.find_element_by_xpath('/html/body/div[4]/div[1]/div[1]/div[2]/div[1]/ul/li[1]/a').click()
         driver.find_element_by_id('FirstName').send_keys('dfxfgh')
         driver.find_element_by_id('LastName').send_keys('dfxfgh')
-        driver.find_element_by_id('Email').send_keys('dfghn5h@gfgmv.ff')
+        driver.find_element_by_id('Email').send_keys('dfgoohn5h@gfgmv.ff')
         driver.find_element_by_id('Password').send_keys('dfxfgh')
         driver.find_element_by_id('ConfirmPassword').send_keys('dfxfgh')
     with allure.step('Регистрация'):
